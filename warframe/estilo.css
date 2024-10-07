@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www-static.warframe.com/images/longlanding/warframe-metacard.png');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    background-color: white;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.date {
+    font-size: 14px;
+    color: #999;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.text-content {
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
