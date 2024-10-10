@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Estudante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="card p-4 shadow-lg" style="max-width: 600px; width: 100%;">
+            <div class="text-center mb-4">
+                <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="Foto de Perfil" class="img-fluid rounded-circle" style="width: 100px;">
+            </div>
+            <h2 class="text-center mb-4">Cadastro de Estudante</h2>
+            <form>
+                
+                <div class="mb-3">
+                    <label for="nomeCompleto" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" id="nomeCompleto" placeholder="Digite seu nome completo" required>
+                </div>
+       
+                <div class="mb-3">
+                    <label for="ra" class="form-label">RA</label>
+                    <input type="text" class="form-control" id="ra" placeholder="Digite seu RA" required>
+                </div>
+              
+                <div class="mb-3">
+                    <label for="cursoPeriodo" class="form-label">Curso e Período Atual</label>
+                    <input type="text" class="form-control" id="cursoPeriodo" placeholder="Ex: Ciência da Computação - 5º Período" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="endereco" class="form-label">Endereço Completo</label>
+                    <input type="text" class="form-control" id="endereco" placeholder="Digite seu endereço completo" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail" required>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="fotoPerfil" class="form-label">Foto de Perfil</label>
+                    <input type="file" class="form-control" id="fotoPerfil" accept="image/*">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="ucs" class="form-label">UCs já cursadas</label>
+                    <textarea class="form-control" id="ucs" rows="3" placeholder="Digite as UCs já cursadas" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
